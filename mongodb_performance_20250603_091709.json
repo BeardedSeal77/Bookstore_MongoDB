@@ -1,0 +1,230 @@
+{
+  "test_timestamp": "2025-06-03T09:17:08.974397",
+  "collection_stats": {
+    "books": {
+      "count": 1285,
+      "sample_document": {
+        "BookID": 0,
+        "BookTitle": "Attack on Titan: Volume 13",
+        "AuthorName": "Hajime Isayama",
+        "BookPrice": 43.28,
+        "BookPublisher": "Kodansha Comics",
+        "BookPublicationDate": "Jul 31, 2014",
+        "BookQuantity": 15
+      }
+    },
+    "orders": {
+      "count": 11,
+      "sample_document": {
+        "OrderID": 1,
+        "CustomerID": 1003,
+        "BookIDQuantity": {
+          "5": 1,
+          "42": 1
+        },
+        "OrderPrice": 48.01,
+        "OrderDate": "2025-05-26T19:03:14.151668"
+      }
+    },
+    "customers": {
+      "count": 3,
+      "sample_document_structure": [
+        "CustomerID",
+        "CustomerName",
+        "CustomerAddress",
+        "CustomerEmail"
+      ]
+    }
+  },
+  "basic_operations": {
+    "single_book_lookup": {
+      "avg_ms": 0.5,
+      "min_ms": 0.0,
+      "max_ms": 1.5,
+      "iterations_completed": 5,
+      "raw_times": [
+        1.5,
+        0.0,
+        0.0,
+        1.01,
+        0.0
+      ]
+    },
+    "get_20_books": {
+      "avg_ms": 0.41,
+      "min_ms": 0.0,
+      "max_ms": 1.04,
+      "iterations_completed": 5,
+      "raw_times": [
+        1.0,
+        0.0,
+        1.04,
+        0.0,
+        0.0
+      ]
+    },
+    "get_all_books": {
+      "avg_ms": 0.9,
+      "min_ms": 0.0,
+      "max_ms": 1.5,
+      "iterations_completed": 5,
+      "raw_times": [
+        1.0,
+        0.5,
+        1.5,
+        1.49,
+        0.0
+      ]
+    },
+    "count_books": {
+      "avg_ms": 0.73,
+      "min_ms": 0.0,
+      "max_ms": 1.5,
+      "iterations_completed": 5,
+      "raw_times": [
+        1.5,
+        1.02,
+        1.11,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "search_operations": {
+    "price_range_search": {
+      "avg_ms": 1.91,
+      "min_ms": 1.43,
+      "max_ms": 2.57,
+      "iterations_completed": 5,
+      "raw_times": [
+        2.53,
+        2.57,
+        1.5,
+        1.43,
+        1.5
+      ]
+    },
+    "author_search": {
+      "avg_ms": 0.94,
+      "min_ms": 0.0,
+      "max_ms": 1.5,
+      "iterations_completed": 5,
+      "raw_times": [
+        1.07,
+        1.11,
+        0.0,
+        1.5,
+        1.01
+      ]
+    },
+    "title_search": {
+      "avg_ms": 0.79,
+      "min_ms": 0.0,
+      "max_ms": 1.73,
+      "iterations_completed": 5,
+      "raw_times": [
+        1.19,
+        1.01,
+        1.73,
+        0.0,
+        0.0
+      ]
+    },
+    "high_stock_books": {
+      "avg_ms": 1.79,
+      "min_ms": 1.0,
+      "max_ms": 2.27,
+      "iterations_completed": 5,
+      "raw_times": [
+        2.07,
+        2.27,
+        1.0,
+        1.5,
+        2.1
+      ]
+    }
+  },
+  "order_operations": {
+    "get_all_orders": {
+      "avg_ms": 0.48,
+      "min_ms": 0.0,
+      "max_ms": 1.41,
+      "iterations_completed": 5,
+      "raw_times": [
+        0.0,
+        1.41,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "get_customer_orders": {
+      "avg_ms": 0.2,
+      "min_ms": 0.0,
+      "max_ms": 1.0,
+      "iterations_completed": 5,
+      "raw_times": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "insert_delete_order": {
+      "avg_ms": 1.07,
+      "min_ms": 0.0,
+      "max_ms": 2.13,
+      "iterations_completed": 5,
+      "raw_times": [
+        2.13,
+        0.5,
+        0.0,
+        1.5,
+        1.23
+      ]
+    }
+  },
+  "sorting_operations": {
+    "sort_by_title": {
+      "avg_ms": 0.88,
+      "min_ms": 0.0,
+      "max_ms": 1.37,
+      "iterations_completed": 5,
+      "raw_times": [
+        1.0,
+        1.37,
+        1.02,
+        1.0,
+        0.0
+      ]
+    },
+    "sort_by_price": {
+      "avg_ms": 0.79,
+      "min_ms": 0.0,
+      "max_ms": 1.5,
+      "iterations_completed": 5,
+      "raw_times": [
+        1.5,
+        1.42,
+        1.01,
+        0.0,
+        0.0
+      ]
+    },
+    "sort_orders_by_date": {
+      "avg_ms": 0.22,
+      "min_ms": 0.0,
+      "max_ms": 1.09,
+      "iterations_completed": 5,
+      "raw_times": [
+        0.0,
+        0.0,
+        1.09,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "total_test_time_seconds": 0.08
+}

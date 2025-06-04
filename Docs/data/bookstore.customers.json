@@ -1,0 +1,30 @@
+[{
+  "_id": {
+    "$oid": "68346ea5cae3f7c050de0606"
+  },
+  "CustomerID": 1001,
+  "CustomerName": "Jane Doe",
+  "CustomerAddress": "123 Main Street, Springfield, USA",
+  "CustomerEmail": "jane.doe@example.com",
+  "CustomerPassword": "hashed_password_here"
+},
+{
+  "_id": {
+    "$oid": "68346ed3cae3f7c050de0608"
+  },
+  "CustomerID": 1002,
+  "CustomerName": "ED Cullen",
+  "CustomerAddress": "Carboard Box",
+  "CustomerEmail": "testingemail@gmail.com",
+  "CustomerPassword": "password1"
+},
+{
+  "_id": {
+    "$oid": "68347418cae3f7c050de060b"
+  },
+  "CustomerID": 1003,
+  "CustomerName": "user1",
+  "CustomerAddress": "Carboard Box",
+  "CustomerEmail": "testingemail@gmail.com",
+  "CustomerPassword": "password1"
+}]

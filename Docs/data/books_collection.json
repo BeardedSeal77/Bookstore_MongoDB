@@ -1,0 +1,29 @@
+[
+  {
+    "BookID": 0,
+    "BookTitle": "Attack on Titan: Volume 13",
+    "AuthorName": "Hajime Isayama",
+    "BookPrice": 43.28,
+    "BookPublisher": "Kodansha Comics",
+    "BookPublicationDate": "Jul 31, 2014",
+    "BookQuantity": 15
+  },
+  {
+    "BookID": 1,
+    "BookTitle": "Antiques Roadkill: A Trash 'n' Treasures Mystery",
+    "AuthorName": "Barbara Allan",
+    "BookPrice": 26.15,
+    "BookPublisher": "Kensington Publishing Corp.",
+    "BookPublicationDate": "Jul 1, 2007",
+    "BookQuantity": 20
+  },
+  {
+    "BookID": 2,
+    "BookTitle": "The Art of Super Mario Odyssey",
+    "AuthorName": "Nintendo",
+    "BookPrice": 133.85,
+    "BookPublisher": "Dark Horse Comics",
+    "BookPublicationDate": "Nov 5, 2019",
+    "BookQuantity": 6
+  }
+]

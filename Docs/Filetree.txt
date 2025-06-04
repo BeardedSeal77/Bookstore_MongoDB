@@ -1,0 +1,44 @@
+Bookstore_MongoDB/
+├─ api/
+│  ├─ auth/
+│  │  ├─ __init__.py
+│  │  └─ login.py
+│  ├─ __init__.py
+│  ├─ books.py
+│  ├─ index.py
+│  └─ orders.py
+├─ app/
+│  ├─ home/
+│  │  └─ page.tsx
+│  ├─ login/
+│  │  └─ page.tsx
+│  ├─ new-order/
+│  │  └─ page.tsx
+│  ├─ view-orders/
+│  │  └─ page.tsx
+│  ├─ globals.css
+│  ├─ layout.tsx
+│  └─ page.tsx
+├─ components/
+│  ├─ BookCard.tsx
+│  ├─ Cart.tsx
+│  ├─ Navbar.tsx
+│  └─ Order.tsx
+├─ Docs/
+│  ├─ data/
+│  │  ├─ books_collection.json
+│  │  ├─ Books.csv
+│  │  └─ Customers.csv
+│  ├─ ERD.drawio
+│  └─ Filetree.txt
+├─ .gitignore
+├─ Bookstore_MongoDB.zip
+├─ next-env.d.ts
+├─ next.config.ts
+├─ package-lock.json
+├─ package.json
+├─ postcss.config.js
+├─ README.md
+├─ requirements.txt
+├─ tailwind.config.js
+├─ tsconfig.json
